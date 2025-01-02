@@ -88,7 +88,7 @@ form {
     align-items: center;
 }
 
-form a {
+button {
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     background-color: whitesmoke;
@@ -102,7 +102,7 @@ form a {
     cursor: pointer;
 }
 
-form a:hover {
+button:hover {
     background-color: rgb(51, 33, 92);
     color: white;
 }

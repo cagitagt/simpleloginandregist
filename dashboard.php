@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(isset($_POST["submit"])){
+    session_unset();
+    session_destroy();
+    header("Location: home.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +18,13 @@
 <body>
     <section>
         <div class="card">
-            <h1>Hai Cagita</h1>
+            <h1>Hai <?php echo $_SESSION["username"] ?></h1>
             <div>
+                <!-- <a href="home.php">Home</a>
+                <a href="register.php">Registration</a>
+                <a href="login.php">Login</a> -->
                 <form action="" method="POST">
-                    <!-- <button type="submit" name="submit">Logout</button> -->
-                     <a href="home.html">Logout</a>
+                    <button type="submit" name="submit">Logout</button>
                 </form>
             </div>
         </div>

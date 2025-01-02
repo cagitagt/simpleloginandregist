@@ -10,8 +10,8 @@
     <section>
         <div>
             <h1>Hai People!</h1>
-            <a href="register.html">Registration</a>
-            <a href="login.html">Login</a>
+            <a href="register.php">Registration</a>
+            <a href="login.php">Login</a>
         </div>
     </section>
 </body>

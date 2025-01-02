@@ -51,7 +51,7 @@ input:focus {
     border-color: rgb(51, 33, 92);
 }
 
-form a {
+button {
     width: 110px;
     padding: 12px;
     color: white;
@@ -61,7 +61,7 @@ form a {
     cursor: pointer;
 }
 
-form a:hover {
+button:hover {
     background-color: #37255e;
 }
 
